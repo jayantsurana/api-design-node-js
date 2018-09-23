@@ -1,1 +1,5 @@
-##Solution to step-1
+## Getting Started
+* `npm i`
+
+## To start server.js file
+* `node server/server.js`
