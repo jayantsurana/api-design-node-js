@@ -4,16 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha server/spec.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.13.2",
+    "chai": "^4.2.0",
     "express": "^4.13.1",
+    "git": "^0.1.5",
     "http": "0.0.0",
     "lodash": "^3.10.0",
     "morgan": "^1.6.1",
-    "nvm": "0.0.4"
+    "nvm": "0.0.4",
+    "supertest": "^3.3.0"
   }
 }
