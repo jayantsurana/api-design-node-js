@@ -6,3 +6,6 @@
 ## To do a test
 * `npm test`
 * `mocha server/spec.js`
+
+## To add colors
+* `npm i colors`
