@@ -1,1 +1,2 @@
-##Solution to step-1
+## Getting Started
+* `nodemon server/server.js`
