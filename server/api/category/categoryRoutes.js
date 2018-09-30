@@ -6,6 +6,7 @@ var logger = require('../../util/logger');
 router.route('/')
   .get(function(req, res){
     logger.log('Hey from user!!');
+    return next(new Error('messed up!'));
     res.send({ok: true});
   });
 
